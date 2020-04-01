@@ -6,11 +6,11 @@
 
 Clone the repository
 
-    git@github.com:tapedailyfarhan/guidancepetblog.git
+    git@github.com:iamdeveloper120/laravel7x.git
 
 Switch to the repo folder
 
-    cd guidancepetblog
+    cd laravel7x
 
 Install all the dependencies using composer
 
@@ -40,8 +40,8 @@ You can now access the server at http://localhost:8000
 
 **TL;DR command list**
 git co
-    git@github.com:tapedailyfarhan/guidancepetblog.git
-    cd guidancepetblog
+    git@github.com:iamdeveloper120/laravel7x.git
+    cd laravel7x
     composer install
     cp .env.example .env
     php artisan key:generate
