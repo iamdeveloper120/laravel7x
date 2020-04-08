@@ -141,6 +141,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -164,7 +165,6 @@
       <option name="presentableId" value="Default" />
       <updated>1585773182306</updated>
       <workItem from="1585773183633" duration="2020000" />
-      <workItem from="1586269833999" duration="12156000" />
     </task>
     <servers />
   </component>
