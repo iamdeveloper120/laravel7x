@@ -28,6 +28,10 @@ Run the database migrations (**Set the database connection in .env before migrat
 
     php artisan migrate
 
+Setup Passport (used for api authentication)
+
+    php artisan passport:install
+
 Run the database seeder
 
     php artisan db:seed
