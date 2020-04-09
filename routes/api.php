@@ -18,5 +18,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::apiResources([
+    'users' => 'UsersController'
+]);
 Route::get('/token', 'ApiController@createToken');
 Route::get('/refill', 'ApiController@refill');
