@@ -69,7 +69,7 @@ class UsersController extends Controller
         return $this->apiResponse();
     }
 
-    public function userInfo() {
+    public function detail() {
         $user = Auth::user();
         $this->data = $user;
         return $this->apiResponse();

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e22b7cb-78fb-4001-9558-7ce935b4fbcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Traits/ResponseTrait.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
@@ -180,7 +179,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585773182306</updated>
       <workItem from="1585773183633" duration="2020000" />
-      <workItem from="1586455474199" duration="7949000" />
+      <workItem from="1586455474199" duration="8920000" />
     </task>
     <servers />
   </component>

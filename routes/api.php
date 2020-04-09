@@ -18,7 +18,7 @@ Route::post('login', 'UsersController@login');
 Route::post('register', 'UsersController@register');
 
 Route::group(['prefix' => 'v1','middleware'=>'auth:api'], function (){
-    Route::get('detail', 'UsersController@userInfo');
+    Route::get('detail', 'UsersController@detail');
     Route::apiResources([
         'users' => 'UsersController'
     ]);
