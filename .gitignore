@@ -4,6 +4,9 @@
 /storage/*.key
 /vendor
 .phpunit.result.cache
+.idea
+.idea/*
+.idea/*.*
 Homestead.json
 Homestead.yaml
 npm-debug.log
