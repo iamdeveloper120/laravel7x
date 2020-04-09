@@ -14,19 +14,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('login', 'UserController@login');
-Route::post('register', 'UserController@register');
+Route::post('login', 'UsersController@login');
+Route::post('register', 'UsersController@register');
 
 Route::group(['prefix' => 'v1','middleware'=>'auth:api'], function (){
-    Route::post('detail', 'UserController@detail');
+    Route::get('detail', 'UsersController@userInfo');
+    Route::apiResources([
+        'users' => 'UsersController'
+    ]);
 });
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
-
-Route::apiResources([
-    'users' => 'UsersController'
-]);
 Route::get('/token', 'ApiController@createToken');
 Route::get('/refill', 'ApiController@refill');
+
+Route::fallback('FallbackController@page404');
