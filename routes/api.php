@@ -17,16 +17,34 @@ use Illuminate\Support\Facades\Route;
 Route::post('login', 'UsersController@login');
 Route::post('register', 'UsersController@register');
 
-Route::group(['prefix' => 'v1','middleware'=>'auth:api'], function (){
+/*
+ * Only admin can access these routes
+ * */
+Route::group([
+    'prefix' => 'v1', 'middleware' => [
+        'auth:api', 'role:admin'
+    ]], function (){
+    Route::apiResources([
+        'admin' => 'AdminController'
+    ]);
+});
+
+/*
+ * All routes that accessible for both admin and users
+ * */
+Route::group([
+    'prefix' => 'v1', 'middleware' => [
+        'auth:api', 'role:admin,user'
+    ]], function (){
     Route::get('detail', 'UsersController@detail');
     Route::apiResources([
         'users' => 'UsersController'
     ]);
 });
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+/*
+ * general routes can be accessed without authentication/roles
+ * */
 Route::get('/token', 'ApiController@createToken');
 Route::get('/refill', 'ApiController@refill');
 
