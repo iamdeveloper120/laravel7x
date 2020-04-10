@@ -3,8 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Traits\ResponseTrait;
-use http\Env\Response;
-use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use App\User;
@@ -74,6 +72,7 @@ class UsersController extends Controller
         $this->data = $user;
         return $this->apiResponse();
     }
+
     /**
      * Display a listing of the resource.
      *
@@ -81,9 +80,7 @@ class UsersController extends Controller
      */
     public function index()
     {
-        $users = User::all();
-        $this->message = 'list of all users';
-        $this->data = $users;
+        $this->message = 'Dummy data provided from a role:user';
         return $this->apiResponse();
     }
 
