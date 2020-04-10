@@ -4,6 +4,7 @@
     <list default="true" id="3e22b7cb-78fb-4001-9558-7ce935b4fbcd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585773182306</updated>
       <workItem from="1585773183633" duration="2020000" />
-      <workItem from="1586455474199" duration="8920000" />
+      <workItem from="1586455474199" duration="17725000" />
     </task>
     <servers />
   </component>
@@ -187,10 +188,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="768" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1586460894788">
+    <state x="768" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1586530739791">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="768" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1586460894788" />
+    <state x="768" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1586530739791" />
+    <state x="693" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586533151910">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="693" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1586533151910" />
     <state x="755" y="478" width="399" height="149" key="NewPhpFileDialog" timestamp="1586270051267">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -203,9 +208,13 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="614" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1586455476251" />
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1586446531282">
+    <state x="596" y="275" width="727" height="554" key="find.popup" timestamp="1586529786600">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1586446531282" />
+    <state x="596" y="275" width="727" height="554" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1586529786600" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1586533684705">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1586533684705" />
   </component>
 </project>
